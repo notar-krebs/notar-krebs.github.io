@@ -1,0 +1,91 @@
+A:link {text-decoration: underline; color: black}
+A:visited {text-decoration: underline; color: grey}
+A:active {text-decoration: none; color: #cc3333}
+A:hover {text-decoration: underline; color: #cc3333}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('RobotoSlab-Regular.woff2') format('woff2'),
+       url('RobotoSlab-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('RobotoSlab-Bold.woff2') format('woff2'),
+       url('RobotoSlab-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  }
+
+body {
+  -moz-hyphens: auto;
+  -o-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; 
+  background-color: #ffffff;
+  font-family: Roboto Slab, serif;
+  font-size: 14px;  
+  max-width: 760px;
+  }
+  
+#header {
+  position: fixed; 
+  margin: 8px 0px 0px 40px;
+  font-size: 16px;
+  }  
+
+#nav {
+  position: fixed; 
+  margin: 176px 0px 0px 0px;
+  }
+  
+  #nav li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    }
+
+  #nav li a {
+    text-decoration: none;
+    color: black;
+    }
+
+  #nav li a:hover	{
+	  color: #cc3333;
+          text-decoration: underline;
+	  }
+  
+#main {
+  position: absolute;
+  margin: 80px 0px 0px 296px;
+  max-width: 512px;
+  }
+  
+  #main h1 {
+    color: #cc3333;
+    font-size: 18px;
+    font-weight: bold;
+    }
+  
+  #main h2 {
+    padding-top: 12px;
+    /*color: #cc3333;*/
+    font-size: 14px;
+    font-weight: bold;
+    }
+  
+  #main ol li {
+    margin-top: 18px;
+    list-style-position: outside;
+    }
+
+  #main ol li:first-line	{
+    color: #cc3333;
+    }
+
+  #main ul {
+    list-style-position: outside;
+    list-style-type: circle;
+    }
